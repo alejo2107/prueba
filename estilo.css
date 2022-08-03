@@ -1,0 +1,26 @@
+body{
+    background-color: #ffff00;
+}
+h1{
+    color: #0000cc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: #555555;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.resaltado{
+    color: #ff0000;
+    background-color: #ffff00;
+    font-style: italic;
+}
+#cabecera{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30;
+    color: blueviolet;
+    background-color: darkorange;
+}
