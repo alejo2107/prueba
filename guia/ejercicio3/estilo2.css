@@ -1,0 +1,32 @@
+#Texto1{
+    width: 80%;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: justify;
+}
+#p_texto1{
+    text-align: center;
+}
+#imagen1{
+    width: 25%;
+    float: right;
+}
+#imagen2{
+    width: 25%;
+    float: left;
+}
+#texto2{
+    width: 80%;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: justify;
+}
+#p_texto2{
+    text-align: center;
+}
+
+#separacion{
+    clear: both;
+}
