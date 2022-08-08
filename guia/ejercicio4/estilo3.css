@@ -1,0 +1,16 @@
+#tabla{
+    background-color: yellow;
+    border-collapse: collapse;
+    border-top: 1px dotted black;
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted red;
+}
+.fila{
+    border: 1px dotted black;
+}
+th{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
