@@ -1,0 +1,40 @@
+.parrafo{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: red;
+}
+#acceso{
+    background-color: bisque;
+    font-size: 20px;
+    color: cadetblue;
+}
+#recuadro{
+    background-image: url(imagen.jpg);
+    color: white;
+    width: 740px;
+    height: 450px;
+    border-radius: 15px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+#recuadro1{
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro1:hover{
+    width: 300px;
+}
+#recuadro2{
+    border-radius: 20px;
+    background-color: #ff0;
+    width: 200px;
+    padding: 10px;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+}
+#recuadro2:hover{
+    width: 300px;
+}
