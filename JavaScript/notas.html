@@ -19,10 +19,12 @@
         document.write(promedio);
         if (promedio < 3) {
             document.write("<br>Su promedio es malo");
-        } else if (promedio >= 3 && promedio <= 4) {
+        } else if (promedio >= 3 && promedio < 4) {
             document.write("<br>Su promedio es bueno");
-        }else if (promedio > 4 && promedio <= 5) {
+        }else if (promedio >= 4 && promedio <= 5) {
             document.write("<br>Su promedio es excelente");
+        }else{
+            document.write("<br>Promedio no valido");
         }
     </script>
 </body>
