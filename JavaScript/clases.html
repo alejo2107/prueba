@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases</title>
+</head>
+
+<body>
+    <a href="#" onMouseOver="pintar('#f00')" onMouseOut="pintar('#000')">Rojo</a> -
+    <a href="#" onMouseOver="pintar('#0f0')" onMouseOut="pintar('#000')">Verde</a> -
+    <a href="#" onMouseOver="pintar('#00f')" onMouseOut="pintar('#000')">Azul</a>
+    <div id="cuadrado" style="background: #000;width: 200px;height: 200px;"></div>
+    <script>
+
+        function pintar(color) {
+            document.getElementById('cuadrado').style.background = color;
+        }
+
+
+
+        /*let total = 0;
+        function mostrar() {
+            let fecha;
+            fecha = new Date();
+            document.write("Hoy es ");
+            document.write(fecha.getDate() + "/" + (fecha.getMonth() + 1) + "/" + fecha.getFullYear());
+            document.write("<br>La hora es: " + fecha.getHours() + ":" + fecha.getMinutes() + ":" + fecha.getSeconds());
+        }
+        mostrar();
+
+        function cargar() {
+            for (let i = 0; i < sueldos.length; i++) {
+                let v = parseInt(prompt("Ingrese sueldos:"));
+                sueldos[i] = v;
+            }
+        }
+
+        function suma() {
+
+            for (let i = 0; i < sueldos.length; i++) {
+                document.write("<br>"+sueldos[i])
+                total += sueldos[i];
+            }
+        }
+        let sueldos = new Array(4);
+        cargar(sueldos);
+        suma(sueldos);
+        document.write("<br>El total de sueldos es: " + total)
+        */
+        /*
+        let cargar = parseInt(prompt("Ingrese un numero entre 0 - 9"));
+        let numero = parseInt(Math.random() * 10) + 1;
+        if (numero == cargar) {
+            document.write("Gano la loteria!!!")
+        } else {
+            document.write("Siga intentando")
+        }
+        */
+
+
+    </script>
+</body>
+
+</html>
