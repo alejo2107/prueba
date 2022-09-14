@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto window</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="button" value="open()" onclick="abrir()">
+        <input type="button" value="alert" onclick="mostrarAlerta()">
+        <input type="button" value="confirm" onclick="confirmar()">
+        <input type="button" value="promt" onclick="cargarCadena()">
+    </form>
+    <script>
+        function abrir() {
+            let ventana = open();
+            ventana.document.write("Estoy escribiendo en la nueva ventana<br>");
+            ventana.document.write("Estoy escribiendo en la segunda linea<br>");
+        }
+        function mostrarAlerta() {
+            alert("Esta ventana ya la habiamos visto en otras clases...");
+        }
+        function confirmar() {
+            let respuesta = confirm("Presione alguno de los botones..");
+            if (respuesta) {
+                alert("Presiono aceptar");
+            } else {
+                alert("Presiono cancelar");
+            }
+        }
+        function cargarCadena() {
+            let cade = prompt("Escriba un texto");
+            alert("Usted ingreso: " + cade);
+        }
+
+
+        //Propiedades del objeto screen
+        document.write("<br>availHeight: " + screen.availHeight + "<br>");
+        document.write("availWidht: " + screen.availWidth + "<br>");
+        document.write("Height: " + screen.height + "<br>");
+        document.write("Widht: " + screen.width + "<br>");
+        document.write("colorDepth: " + screen.colorDepth + "<br>");
+
+        //Propiedades del navegador
+        document.write("<br>appName: " + navigator.appName + "<br>");
+        document.write("appVersion: " + navigator.appVersion + "<br>");
+        document.write("cookieEnable: " + navigator.cookieEnabled + "<br>");
+        document.write("complementos: " + navigator.plugins + "<br>");
+    </script>
+</body>
+
+</html>
