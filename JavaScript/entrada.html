@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada</title>
+</head>
+
+<body>
+    <input type="button" value="Salir" onclick="entrada()">
+    <script>
+        function entrada() {
+            if (window.confirm("Desea salir de mi pagina e ir a la U?")) {
+                window.location = "http://www.unilibre.edu.co";
+            } else {
+                window.alert("No hay problema...");
+            }
+        }
+    </script>
+</body>
+
+</html>
